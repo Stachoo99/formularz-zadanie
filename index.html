@@ -11,14 +11,14 @@
     <h1>Formularz</h1>
 <!--    formspree -->
     <form action="https://formspree.io/a.stasiun@icloud.com" method="POST">
-        <label for="text">Podaj Imię</label>
-        <input type="text" placeholder="Imie"><br>
-        <label for="text">Podaj Nazwisko</label>
-        <input type="text" placeholder="Nazwisko"><br>
+        <label for="imie">Podaj Imię</label>
+        <input type="text" placeholder="Imie" name="Imie"><br>
+        <label for="nazwizko">Podaj Nazwisko</label>
+        <input type="text" placeholder="Nazwisko" name="Nazwisko"><br>
         <label for="Email">Email</label>
-        <input type="email" placeholder="Adres Email"><br>
-        <label for="number">Numer</label>
-        <input type="number" placeholder="Numer Telefonu"><br>
+        <input type="email" name="Email" placeholder="Adres Email"><br>
+        <label for="Numer Telefonu">Numer</label>
+        <input type="Numer Telefonu" placeholder="Numer Telefonu" name="Numer Telefonu"><br>
          <label for="Miasto">Wybierz swoje miasto</label><br>
          <select name="Miasto">
          <option value="Wybierz">Wybierz</option>
@@ -27,12 +27,12 @@
     <option value="Gdańsk">Gdańsk</option>
   </select><br>
           <label for="radio">Wybierz płeć</label><br>
-            <input type="radio" name="gender" value="male" checked> Mężczyzna<br>
-            <input type="radio" name="gender" value="female"> Kobieta<br/>
+            <input type="radio" name="Płeć" value="male" checked> Mężczyzna<br>
+            <input type="radio" name="Płeć" value="female"> Kobieta<br/>
             <label for="zgoda">Wyrażam zgodę na przesłanie formularza</label><br>
-            <input type="checkbox" name="zgoda" value="Wyrażam">Wyrażam zgodę<br>
-            <label for="text">Tutaj wpisz wiadomość</label><br>
-        <textarea name="text" id="" cols="30" rows="10" placeholder="Wiadomość"></textarea><br>
+            <input type="checkbox" name="Zgoda" value="Wyrażam">Wyrażam zgodę<br>
+            <label for="Wiadomość">Tutaj wpisz wiadomość</label><br>
+        <textarea name="Wiadomość" id="" cols="30" rows="10" placeholder="Wiadomość"></textarea><br>
         <input type="submit" value="wyslij">
     </form>
 
